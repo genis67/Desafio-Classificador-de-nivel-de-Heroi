@@ -14,7 +14,7 @@ function classificarHeroi() {
         let nivel = "";
 
         // Estrutura de decisão para definir o nível
-        if (xp < 1000) {
+        if (xp <= 1000) {
             nivel = "Ferro";
         } else if (xp >= 1001 && xp <= 2000) {
             nivel = "Bronze";
